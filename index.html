@@ -3,27 +3,24 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NikoDev</title>
+  <title>nikolasnoki</title>
   <style>
-    /* Reset & Base */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { font-size: 16px; scroll-behavior: smooth; }
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, sans-serif;
-      background: #fff;
-      color: #111;
+      background: #000;
+      color: #e0e0e0;
       line-height: 1.6;
       min-height: 100vh;
     }
 
-    /* Layout */
     .container {
       max-width: 960px;
       margin: 0 auto;
       padding: 0 1.5rem;
     }
 
-    /* Hero Section */
     .hero {
       display: flex;
       flex-direction: column;
@@ -38,23 +35,22 @@
       font-weight: 700;
       letter-spacing: -0.02em;
       margin-bottom: 0.5rem;
-      color: #000;
+      color: #fff;
     }
     .hero p {
       font-size: clamp(1rem, 2.5vw, 1.25rem);
-      color: #555;
+      color: #aaa;
       max-width: 560px;
       margin-bottom: 2rem;
     }
 
-    /* CTA */
     .cta {
       display: inline-flex;
       align-items: center;
       gap: 0.5rem;
       padding: 0.75rem 2rem;
-      background: #111;
-      color: #fff;
+      background: #fff;
+      color: #000;
       font-size: 1rem;
       font-weight: 500;
       border: none;
@@ -63,40 +59,38 @@
       text-decoration: none;
       transition: background 0.2s;
     }
-    .cta:hover { background: #333; }
+    .cta:hover { background: #ccc; }
 
-    /* Features Grid */
     .features {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
       gap: 2rem;
       padding: 4rem 0;
-      border-top: 1px solid #eee;
+      border-top: 1px solid #222;
     }
     .feature {
       padding: 1.5rem;
       border-radius: 0.5rem;
-      background: #fafafa;
+      background: #111;
       transition: background 0.2s;
     }
-    .feature:hover { background: #f0f0f0; }
+    .feature:hover { background: #1a1a1a; }
     .feature h3 {
       font-size: 1.1rem;
       font-weight: 600;
       margin-bottom: 0.5rem;
-      color: #000;
+      color: #fff;
     }
     .feature p {
       font-size: 0.9rem;
-      color: #666;
+      color: #888;
     }
 
-    /* Footer */
     footer {
       text-align: center;
       padding: 2rem 0;
-      border-top: 1px solid #eee;
-      color: #888;
+      border-top: 1px solid #222;
+      color: #666;
       font-size: 0.85rem;
     }
   </style>
